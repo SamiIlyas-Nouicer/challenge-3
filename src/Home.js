@@ -1,4 +1,3 @@
-import {ReactComponent as image_1} from 'C:/Users/fujitsu/challenge-3/src/images/image-retro-pcs.jpg'
 
 const home = () => {
     return ( 

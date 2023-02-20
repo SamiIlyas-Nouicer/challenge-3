@@ -97,7 +97,7 @@ hr {
 
 .haut {
    
-  background-image: url("C:/Users/fujitsu/challenge-3/src/images/image-web-3-desktop.jpg");
+  background-image: url("C:/Users/Geekzone/challenge-3/src/images/image-web-3-desktop.jpg");
   min-width: 100%;
   min-height: 50%;
   display: flex;
@@ -202,18 +202,18 @@ button{
 }
 
 .container-1{
-  background-image: url('C:/Users/fujitsu/challenge-3/src/images/image-retro-pcs.jpg');
+  background-image: url('C:/Users/Geekzone/challenge-3/src/images/image-retro-pcs.jpg');
 
 }
 
 .container-2{
-  background-image: url('C:/Users/fujitsu/challenge-3/src/images/image-top-laptops.jpg');
+  background-image: url('C:/Users/Geekzone/challenge-3/src/images/image-top-laptops.jpg');
 
 }
 
 
 .container-3{
-  background-image: url('C:/Users/fujitsu/challenge-3/src/images/image-gaming-growth.jpg');
+  background-image: url('C:/Users/Geekzone/challenge-3/src/images/image-gaming-growth.jpg');
 
 }
 .bottom h1 {
