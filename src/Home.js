@@ -1,4 +1,4 @@
-import {ReactComponent as image_1} from './images/image-web-3-desktop.jpg'
+import {ReactComponent as image_1} from 'C:/Users/fujitsu/challenge-3/src/images/image-retro-pcs.jpg'
 
 const home = () => {
     return ( 
@@ -17,8 +17,11 @@ const home = () => {
                             Web 3.0 ?</h1>
                         </div>
                         <div className="right">
-                            <p> Lorem ipsum dolor sit fzefzef zgezrgezg ergzegzegzege eg
-                            Lorem ipsum dolor sit fzefzef zgezrgezg ergzegzegzege e
+                            <p> Web 3.0, also known as the Semantic Web, is the next evolution of the internet. 
+                            It is a decentralized web that is built on the principles of blockchain technology and focuses on c
+                            reating a more open and transparent internet. The main goal of Web 3.0 is to create a more intelligent
+                             and interconnected web 
+                            that is capable of understanding the context and meaning of information.
                             </p>
                             <button> Read More</button>
                             </div>
@@ -46,6 +49,35 @@ const home = () => {
 
             </div>
             <div className="bottom">
+                <div className="bottom-left">
+                <div className="image container-1">
+                </div>
+                <div className="description">
+                    <h1> 01</h1>
+                    <h2> Reviving Retro Pcs</h2>
+                    <p> this is a short description about the pic wrote by me just to fill 
+                    the space so dont bother reading</p>
+                </div>
+                </div>
+                <div className="bottom-mid">
+                <div className="image container-2"></div>
+                <div className="description">
+                <h1> 02</h1>
+                    <h2> Reviving Retro Pcs</h2>
+                    <p> this is a short description about the pic wrote by me just to fill 
+                    the space so dont bother reading</p>
+                </div>
+                </div>
+                <div className="bottom-right">
+                <div className="image container-3"></div>
+                <div className="description">
+                <h1> 03</h1>
+                    <h2> Reviving Retro Pcs</h2>
+                    <p> this is a short description about the pic wrote by me just to fill 
+                    the space so dont bother reading</p>
+                </div>
+                </div>
+
             </div>
 
         </div>

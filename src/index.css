@@ -4,8 +4,15 @@
   font-family: 'Inter', 'sans-serif';
 }
 .all {
-  border: 1px solid #ccc;
+   
   width: 97.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+
+
 }
 
 .App{
@@ -37,10 +44,14 @@ flex-direction: column;
   color: #000;
   font-size: 1rem;
   font-weight: 500;
+  text-decoration: underline rgb(33, 32, 32) solid 1px;
+  transition: all 0.35s ease-in-out;
 }
 
 .links a:hover {
   color: #f35353;
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 .top{
@@ -50,22 +61,24 @@ flex-direction: column;
   width: 90%;
   height: 70%;
   padding: 3rem 2rem;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
 }
 
 .top-left{
   width: clamp(100rem, 60%, 200rem);
-  height: clamp(80rem ,110rem);
+  min-height: 50%;
 }
 
 .top-right {
   display: flex;
   flex-direction: column;
-  min-height: 50%;
-
+  height: auto;
   background-color: hsl(240, 100%, 5%) ;
   color: aliceblue;
-  max-width: 40rem;
-  padding: 0 2rem
+  max-width: 25rem;
+  padding: 0 2rem;
+  flex-wrap:wrap;
 
 }
 .top-right h1{
@@ -83,8 +96,8 @@ hr {
 }
 
 .haut {
-  border: 1px solid #ccc;
-  background-image: url("C:/Users/Geekzone/challenge-3/src/images/image-web-3-desktop.jpg");
+   
+  background-image: url("C:/Users/fujitsu/challenge-3/src/images/image-web-3-desktop.jpg");
   min-width: 100%;
   min-height: 50%;
   display: flex;
@@ -96,14 +109,15 @@ hr {
 
 .bas {
   display: flex;
-  border: 1px solid #ccc;
-  
-  height: 25rem;
+   
+  min-width: 100%;
+
+  min-height: 50%;
   justify-content: space-between;
 }
 
 .bottom {
-  border: 1px solid #ccc;
+   
   
   height: 15rem;
   margin: 2rem 1rem;
@@ -114,6 +128,7 @@ hr {
   text-align: left;
   overflow: hidden;
   font-weight: bolder;
+  width: 50%;
       
 }
 
@@ -121,8 +136,12 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 1rem;
+  flex-wrap: wrap;
+  font-size: large;
+
   text-align: left;
+  width: 50%;
+  font-weight: 700;
   overflow: hidden;
   font-weight: lighter;
 }
@@ -140,4 +159,70 @@ button{
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   padding: auto;
+}
+
+.bottom {
+  display: flex;
+
+}
+
+.bottom-left {
+  display: flex;
+  width: 33%;
+   
+
+  
+}
+
+.bottom-mid{
+  display: flex;
+  width: 33%;
+   
+
+}
+
+.bottom-right {
+  display: flex;
+  width: 33%;
+   
+  
+}
+
+.image {
+  margin: 1rem 1rem;
+  background-size: contain;
+  width: 30%;
+  min-height: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.container-1{
+  background-image: url('C:/Users/fujitsu/challenge-3/src/images/image-retro-pcs.jpg');
+
+}
+
+.container-2{
+  background-image: url('C:/Users/fujitsu/challenge-3/src/images/image-top-laptops.jpg');
+
+}
+
+
+.container-3{
+  background-image: url('C:/Users/fujitsu/challenge-3/src/images/image-gaming-growth.jpg');
+
+}
+.bottom h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: hsl(233, 8%, 79%)
+}
+
+.bottom h2{
+  font-weight: 600;
 }
