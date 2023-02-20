@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/challenge-3/static/css/main.43d02dee.css",
+    "main.js": "/challenge-3/static/js/main.8751d0e2.js",
+    "static/media/image-web-3-desktop.jpg": "/challenge-3/static/media/image-web-3-desktop.988d05305d18140f188c.jpg",
+    "static/media/image-retro-pcs.jpg": "/challenge-3/static/media/image-retro-pcs.4ecb8a36b05f012297a6.jpg",
+    "static/media/logo.svg": "/challenge-3/static/media/logo.c6b5661f5975f9f1c10d76ac5d2a72c6.svg",
+    "index.html": "/challenge-3/index.html",
+    "main.43d02dee.css.map": "/challenge-3/static/css/main.43d02dee.css.map",
+    "main.8751d0e2.js.map": "/challenge-3/static/js/main.8751d0e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43d02dee.css",
+    "static/js/main.8751d0e2.js"
+  ]
+}
