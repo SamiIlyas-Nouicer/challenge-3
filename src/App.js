@@ -4,8 +4,11 @@ import Navbar from "./Navbar";
 
 function App() {
   return (
+    
     <div className="App">
-    <Navbar />
+      <div className="nav"><Navbar /></div>
+      <div className="home-1">
+      
       <Router>
       <Switch>
         <Route path="/" exact component={Home} >
@@ -14,6 +17,7 @@ function App() {
       </Switch>
 
       </Router>
+      </div>
       
     </div>
   );

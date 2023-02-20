@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+  font-family: 'Inter', 'sans-serif';
+}
+.all {
+  border: 1px solid #ccc;
+  width: 97.5%;
+}
+
+.App{
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+
 .navbar{
   display: flex;
   justify-content: space-between;
-  position: fixed;
   top: 0;
   width: 90%;
   border-bottom: 1px solid #ccc;
@@ -23,4 +41,103 @@
 
 .links a:hover {
   color: #f35353;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 90%;
+  height: 70%;
+  padding: 3rem 2rem;
+}
+
+.top-left{
+  width: clamp(100rem, 60%, 200rem);
+  height: clamp(80rem ,110rem);
+}
+
+.top-right {
+  display: flex;
+  flex-direction: column;
+  min-height: 50%;
+
+  background-color: hsl(240, 100%, 5%) ;
+  color: aliceblue;
+  max-width: 40rem;
+  padding: 0 2rem
+
+}
+.top-right h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: hsl(35, 77%, 62%)
+}
+
+hr {
+  
+  width: 100%;
+  opacity: 40%;
+  box-shadow: white 0px 0px 1px;
+}
+
+.haut {
+  border: 1px solid #ccc;
+  background-image: url("C:/Users/Geekzone/challenge-3/src/images/image-web-3-desktop.jpg");
+  min-width: 100%;
+  min-height: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bas {
+  display: flex;
+  border: 1px solid #ccc;
+  
+  height: 25rem;
+  justify-content: space-between;
+}
+
+.bottom {
+  border: 1px solid #ccc;
+  
+  height: 15rem;
+  margin: 2rem 1rem;
+}
+
+.left {
+  font-size: 2rem;
+  text-align: left;
+  overflow: hidden;
+  font-weight: bolder;
+      
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1rem;
+  text-align: left;
+  overflow: hidden;
+  font-weight: lighter;
+}
+
+button{
+  float: left;
+  background-color: hsl(5, 85%, 63%);
+  margin-bottom: 1rem;
+  height: 3rem;
+  width: 15rem;
+  border: none;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  padding: auto;
 }
